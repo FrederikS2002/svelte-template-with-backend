@@ -5,6 +5,7 @@ cd ..
 git clone https://github.com/FrederikS2002/nodejs-backend-template.git ./backend
 cd backend
 npm install
+rm -rf .git
 cd ..
 npm install
 echo add files to "backend/ssl/certs/"
